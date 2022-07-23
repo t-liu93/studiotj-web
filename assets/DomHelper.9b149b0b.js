@@ -1,0 +1,1 @@
+var L=(t=>(t.SMALL="s",t.MEDIUM="m",t.LARGE="l",t.X_LARGE="xl",t))(L||{}),M=(t=>(t[t.X_SMALL=599]="X_SMALL",t[t.SMALL=1023]="SMALL",t[t.MEDIUM=1439]="MEDIUM",t[t.LARGE=1919]="LARGE",t))(M||{}),s={getWidth:function(){return window.innerWidth},getScreenSizeType:function(){const t=this.getWidth();return t<=599?"s":t<=1439?"m":t<=1919?"l":"xl"}};export{s as D,M as S,L as a};
