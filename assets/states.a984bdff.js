@@ -1,1 +1,0 @@
-import{W as t}from"./index.2ed6a2fc.js";var e=(r=>(r[r.HOME=0]="HOME",r[r.PHOTOGRAPHY=1]="PHOTOGRAPHY",r[r.PROJECTS=2]="PROJECTS",r))(e||{});const n=t("stateStore",{state:()=>({showPrivacyBanner:!0,currentPage:0}),actions:{disableBanner(){this.showPrivacyBanner=!1},setCurrentPage(r){this.currentPage=r}}});export{e as P,n as u};
