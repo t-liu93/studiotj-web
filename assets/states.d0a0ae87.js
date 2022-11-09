@@ -1,1 +1,0 @@
-import{X as r}from"./index.d9806d85.js";var e=(t=>(t[t.HOME=0]="HOME",t[t.PHOTOGRAPHY=1]="PHOTOGRAPHY",t[t.PROJECTS=2]="PROJECTS",t))(e||{});const i=r("stateStore",{state:()=>({showPrivacyBanner:!0,currentPage:0,firstVisit:!0}),actions:{disableBanner(){this.showPrivacyBanner=!1},setCurrentPage(t){this.currentPage=t},visitRecorded(){this.firstVisit=!1}}});export{e as P,i as u};
